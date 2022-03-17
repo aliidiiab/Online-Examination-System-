@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+*{
+    color: black;
+    box-sizing: border-box;
+}
+
+.loginbtn {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:#f0ad4e;
+    border-radius: 4px;
+    width: 100%;
+}
+.loginbtn:hover{
+   color: #f0ad4e;
+   background-color: black;
+   transition: 0.4s;
+}
+.startnbtn{
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:#5cb85c;
+    border-radius: 4px;
+}
+.startnbtn:hover{
+   color: #5cb85c;
+   background-color: black;
+   transition: 0.4s;
+}
+#loginform{
+    display: flex;
+justify-content: space-around;
+}
+#img1{
+    margin-top: -90px; 
+    margin-left: -10px; 
+}
+@media only screen and (max-width: 1024px) {
+    #loginform{
+       display: flex;
+       margin-left: 5px;
+    }
+    #img1{
+        margin-top: -180px; 
+        /* margin-left: 20px;  */
+   }
+  }
+  @media only screen and (max-width: 770px) {
+    #loginform{
+       display: grid;
+       margin-left: 5px;
+    }
+    #img1{
+       margin-top: auto;
+       margin-left: auto;
+       height: auto;
+   }
+  }
+@media only screen and (max-width: 450px) {
+
+    #loginform{
+        display: grid;
+        margin-left: 5px;
+    }
+    #img1{
+        margin-top: auto;
+        margin-left: auto;
+        height: auto;
+    }
+ }
+ 
+ 
+  

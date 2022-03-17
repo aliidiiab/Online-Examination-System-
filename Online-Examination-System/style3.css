@@ -1,0 +1,146 @@
+#body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+*{
+  color: white;
+  box-sizing: border-box;
+}
+#prev,#next ,#flag{
+    width: 10%;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:#f0ad4e;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+#prev:hover{
+   color: #f0ad4e;
+   background-color: black;
+   transition: 0.4s;
+}
+#next:hover{
+    color: #f0ad4e;
+    background-color: black;
+    transition: 0.4s;
+ }
+ #flag:hover{
+  color: #f0ad4e;
+  background-color: black;
+  transition: 0.4s;
+}
+ #submit{
+  width: 10%;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color:rgb(92, 184, 92);
+  border-radius: 4px;
+ }
+ #submit:hover{
+    color: #5cb85c;
+    background-color: black;
+   transition: 0.4s;
+ }
+ #fans1,#fans2,#fans3,#fans4{
+  width: 60%;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color:rgb(2, 117, 216);
+  border-radius: 4px;
+ }
+ #fans1:hover{
+  color: rgb(2, 117, 216);
+  background-color: black;
+  transition: 0.4s;
+ }
+ #fans2:hover{
+  color: rgb(2, 117, 216);
+    background-color: black;
+   transition: 0.4s;
+ }
+ #fans3:hover{
+    color: rgb(2, 117, 216);
+    background-color: black;
+    transition: 0.4s;
+ }
+ #fans4:hover{
+  color: rgb(2, 117, 216);
+    background-color: black;
+   transition: 0.4s;
+ }
+ .flagbtn{
+   color: white;
+  width: 10%;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color:rgb(2, 117, 216);
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-top: 35px;
+ }
+ 
+  /* box-shadow: 0 0 10px 2px; 
+  margin-left: 420px;
+  height: 500%;
+  width: 20%;
+  justify-content: end;
+   */
+
+ 
+ /* #middle{
+   width: 900px;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+  justify-items: center;
+ 
+   margin-top: 250px; 
+ }
+ #left{
+ position: relative;
+ display: flex;
+ height: 700px;
+ width: 300px;
+ justify-content: center;
+ text-align: center;
+flex-direction: column;
+justify-items: flex-end;
+ margin-left:600px;
+} */
+
+
+/* body{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+}
+.question{
+	font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #38a;
+} */
